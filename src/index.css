@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply font-sans text-gray-900 bg-white antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  input, select, textarea, button {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Utility: hide scrollbar for horizontal scrollers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom checkbox styling */
+input[type="checkbox"]:checked {
+  background-color: #D42B2B;
+  border-color: #D42B2B;
+}
+
+/* Radio button styling */
+input[type="radio"]:checked {
+  border-color: #D42B2B;
+  background-color: #D42B2B;
+}
+
+/* Range slider */
+input[type="range"] {
+  @apply appearance-none h-1 bg-gray-200 rounded-full outline-none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  @apply appearance-none w-4 h-4 bg-brand-red rounded-full cursor-pointer;
+}
+
+/* Toast animation */
+@keyframes toastIn {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes toastOut {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+.toast-enter { animation: toastIn 0.3s ease-out; }
+.toast-exit { animation: toastOut 0.3s ease-in; }
+
+/* Sticky bottom bar shadow */
+.sticky-bottom-shadow {
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Product image placeholder gradients */
+.product-img-football { background: linear-gradient(135deg, #065f46 0%, #047857 50%, #059669 100%); }
+.product-img-cricket { background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 50%, #2563eb 100%); }
+.product-img-badminton { background: linear-gradient(135deg, #4c1d95 0%, #6d28d9 50%, #7c3aed 100%); }
+.product-img-tennis { background: linear-gradient(135deg, #92400e 0%, #d97706 50%, #f59e0b 100%); }
+.product-img-apparel { background: linear-gradient(135deg, #1f2937 0%, #374151 50%, #4b5563 100%); }
+.product-img-accessories { background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #b91c1c 100%); }
+.product-img-trophies { background: linear-gradient(135deg, #78350f 0%, #b45309 50%, #d97706 100%); }

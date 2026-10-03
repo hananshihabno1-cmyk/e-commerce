@@ -1,0 +1,963 @@
+// ============================================================
+// DENIO SPORTS — Product Data
+// ============================================================
+
+export const products = [
+  // ─── FOOTBALL ────────────────────────────────────────────
+  {
+    id: 'denio-pro-match-football',
+    name: 'DENIO Pro Match Football',
+    slug: 'denio-pro-match-football',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'footballs',
+    price: 2499,
+    originalPrice: 3499,
+    discount: 29,
+    rating: 4.5,
+    reviewCount: 128,
+    description: 'Official match-grade football engineered for professional and semi-professional play. Hand-stitched with premium PU leather for exceptional durability, consistent flight, and superior ball control on any surface.',
+    highlights: [
+      'FIFA-approved weight and size specifications',
+      'Hand-stitched 32-panel construction',
+      'Premium PU leather with textured grip',
+      'Latex bladder for optimal air retention',
+      'Suitable for grass and turf surfaces',
+    ],
+    specifications: { Size: '5', Weight: '420–445g', Material: 'PU Leather', Panels: '32', Bladder: 'Latex' },
+    sizes: ['3', '4', '5'],
+    colors: [
+      { name: 'White/Red', hex: '#D42B2B' },
+      { name: 'White/Black', hex: '#111111' },
+    ],
+    stock: 'in-stock',
+    stockCount: 45,
+    tags: ['bestseller', 'featured'],
+    sku: 'DS-FB-001',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+  {
+    id: 'denio-elite-training-football',
+    name: 'DENIO Elite Training Football',
+    slug: 'denio-elite-training-football',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'footballs',
+    price: 1299,
+    originalPrice: 1799,
+    discount: 28,
+    rating: 4.3,
+    reviewCount: 85,
+    description: 'Designed for rigorous training sessions, this football combines durability with performance. Machine-stitched TPU cover withstands heavy use on hard ground and turf.',
+    highlights: [
+      'Durable TPU cover for extended training',
+      'Machine-stitched for uniform shape',
+      'Butyl bladder for excellent air retention',
+      'High-visibility design for all conditions',
+      'Available in sizes 4 and 5',
+    ],
+    specifications: { Size: '5', Weight: '410–430g', Material: 'TPU', Panels: '32', Bladder: 'Butyl' },
+    sizes: ['4', '5'],
+    colors: [
+      { name: 'Yellow/Black', hex: '#EAB308' },
+      { name: 'Orange/Black', hex: '#EA580C' },
+    ],
+    stock: 'in-stock',
+    stockCount: 82,
+    tags: [],
+    sku: 'DS-FB-002',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+  {
+    id: 'denio-street-football',
+    name: 'DENIO Street Football',
+    slug: 'denio-street-football',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'footballs',
+    price: 799,
+    originalPrice: null,
+    discount: null,
+    rating: 4.0,
+    reviewCount: 42,
+    description: 'Tough, affordable football built for street and casual play. Rubber surface provides excellent grip and withstands rough surfaces including concrete and asphalt.',
+    highlights: [
+      'Rubber outer for street durability',
+      'Suitable for concrete and rough surfaces',
+      'Bright colour options for visibility',
+      'Great value for recreational play',
+    ],
+    specifications: { Size: '5', Weight: '400–420g', Material: 'Rubber', Panels: '32', Bladder: 'Butyl' },
+    sizes: ['4', '5'],
+    colors: [
+      { name: 'Red/White', hex: '#D42B2B' },
+    ],
+    stock: 'in-stock',
+    stockCount: 120,
+    tags: [],
+    sku: 'DS-FB-003',
+    deliveryDays: 5,
+    freeDelivery: false,
+  },
+  {
+    id: 'elite-football-boots',
+    name: 'Elite Football Boots',
+    slug: 'elite-football-boots',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'football-boots',
+    price: 3999,
+    originalPrice: 5499,
+    discount: 27,
+    rating: 4.6,
+    reviewCount: 96,
+    description: 'Lightweight, aggressive football boots designed for speed and precision on firm ground. Textured upper enhances ball control during quick dribbles and sharp turns.',
+    highlights: [
+      'Lightweight synthetic upper (185g per boot)',
+      'Textured control zones for enhanced touch',
+      'Firm-ground moulded studs',
+      'Cushioned EVA insole',
+      'Reinforced heel counter for stability',
+    ],
+    specifications: { Type: 'Firm Ground', Upper: 'Synthetic', Sole: 'TPU', Weight: '185g', Closure: 'Lace-Up' },
+    sizes: ['6', '7', '8', '9', '10', '11'],
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+      { name: 'White/Gold', hex: '#D97706' },
+    ],
+    stock: 'low-stock',
+    stockCount: 5,
+    tags: ['bestseller'],
+    sku: 'DS-FB-004',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+  {
+    id: 'performance-football-jersey',
+    name: 'Performance Football Jersey',
+    slug: 'performance-football-jersey',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'jerseys',
+    price: 1499,
+    originalPrice: 1999,
+    discount: 25,
+    rating: 4.4,
+    reviewCount: 156,
+    description: 'Moisture-wicking football jersey with athletic fit. Breathable mesh panels keep you cool during intense matches. Professional-grade fabric with DENIO branding.',
+    highlights: [
+      'Dry-fit moisture-wicking fabric',
+      'Strategic mesh ventilation panels',
+      'Athletic fit for ease of movement',
+      'Reinforced stitching at stress points',
+      'Machine washable',
+    ],
+    specifications: { Material: '100% Polyester', Fit: 'Athletic', Neck: 'V-Neck', Care: 'Machine Wash Cold', Technology: 'Dry-Fit' },
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'Red', hex: '#D42B2B' },
+      { name: 'White', hex: '#F5F5F5' },
+    ],
+    stock: 'in-stock',
+    stockCount: 200,
+    tags: ['new', 'featured'],
+    sku: 'DS-FB-005',
+    deliveryDays: 3,
+    freeDelivery: true,
+  },
+  {
+    id: 'pro-training-shorts',
+    name: 'Pro Training Shorts',
+    slug: 'pro-training-shorts',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'shorts',
+    price: 799,
+    originalPrice: 999,
+    discount: 20,
+    rating: 4.2,
+    reviewCount: 73,
+    description: 'Comfortable training shorts with elastic waistband and internal drawcord. Lightweight fabric and side vents provide unrestricted movement during drills and matches.',
+    highlights: [
+      'Lightweight polyester fabric',
+      'Elastic waistband with drawcord',
+      'Side ventilation slits',
+      'Zip pocket for valuables',
+      'Quick-dry technology',
+    ],
+    specifications: { Material: '100% Polyester', Fit: 'Regular', Length: 'Above Knee', Features: 'Zip Pocket, Side Vents' },
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'Navy', hex: '#1E3A5F' },
+    ],
+    stock: 'in-stock',
+    stockCount: 150,
+    tags: [],
+    sku: 'DS-FB-006',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+  {
+    id: 'goalkeeper-gloves',
+    name: 'Goalkeeper Gloves',
+    slug: 'goalkeeper-gloves',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'goalkeeper-gear',
+    price: 1899,
+    originalPrice: 2499,
+    discount: 24,
+    rating: 4.5,
+    reviewCount: 64,
+    description: 'Professional-grade goalkeeper gloves with 4mm German latex palm for exceptional grip in all weather conditions. Finger-save technology prevents hyperextension injuries.',
+    highlights: [
+      '4mm German latex palm',
+      'Finger-save spines in all fingers',
+      'Breathable mesh backhand',
+      'Neoprene wrist strap with velcro',
+      'Negative cut for snug fit',
+    ],
+    specifications: { Palm: '4mm German Latex', Cut: 'Negative', Closure: 'Velcro Strap', 'Finger Save': 'Yes' },
+    sizes: ['7', '8', '9', '10', '11'],
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+    ],
+    stock: 'in-stock',
+    stockCount: 35,
+    tags: [],
+    sku: 'DS-FB-007',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+  {
+    id: 'football-shin-guards',
+    name: 'Football Shin Guards',
+    slug: 'football-shin-guards',
+    brand: 'DENIO',
+    category: 'football',
+    subcategory: 'accessories',
+    price: 599,
+    originalPrice: 899,
+    discount: 33,
+    rating: 4.1,
+    reviewCount: 48,
+    description: 'Lightweight polypropylene shin guards with foam backing for comfortable, reliable protection. Slip-in design fits easily under socks for a low-profile feel.',
+    highlights: [
+      'Hard polypropylene shell',
+      'EVA foam padding for cushion',
+      'Slip-in design',
+      'Lightweight (90g per guard)',
+      'Available in multiple sizes',
+    ],
+    specifications: { Material: 'Polypropylene + EVA Foam', Type: 'Slip-In', Weight: '90g each' },
+    sizes: ['S', 'M', 'L'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+    ],
+    stock: 'in-stock',
+    stockCount: 90,
+    tags: [],
+    sku: 'DS-FB-008',
+    deliveryDays: 4,
+    freeDelivery: false,
+  },
+
+  // ─── CRICKET ─────────────────────────────────────────────
+  {
+    id: 'denio-pro-cricket-bat',
+    name: 'DENIO Pro Cricket Bat',
+    slug: 'denio-pro-cricket-bat',
+    brand: 'DENIO',
+    category: 'cricket',
+    subcategory: 'bats',
+    price: 3499,
+    originalPrice: 4999,
+    discount: 30,
+    rating: 4.7,
+    reviewCount: 92,
+    description: 'Premium Kashmir Willow cricket bat with a thick edge profile and massive sweet spot. Carefully selected grade-1 willow offers excellent stroke play and power hitting.',
+    highlights: [
+      'Grade-1 Kashmir Willow',
+      'Full-size short handle',
+      'Thick edge profile (38mm)',
+      'Massive sweet spot for power hitting',
+      'Premium cane handle with rubber grip',
+      'Comes with protective cover',
+    ],
+    specifications: { Willow: 'Kashmir (Grade 1)', Handle: 'Short Handle', Edge: '38mm', Weight: '1100–1250g', 'Sweet Spot': 'Mid-Low' },
+    sizes: ['SH', 'LH'],
+    colors: [
+      { name: 'Natural', hex: '#D2B48C' },
+    ],
+    stock: 'in-stock',
+    stockCount: 28,
+    tags: ['bestseller', 'featured'],
+    sku: 'DS-CR-001',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+  {
+    id: 'denio-premium-cricket-ball',
+    name: 'DENIO Premium Cricket Ball (Pack of 3)',
+    slug: 'denio-premium-cricket-ball',
+    brand: 'DENIO',
+    category: 'cricket',
+    subcategory: 'balls',
+    price: 699,
+    originalPrice: null,
+    discount: null,
+    rating: 4.3,
+    reviewCount: 55,
+    description: 'Tournament-quality leather cricket balls with hand-stitched seam. Excellent shape retention and seam integrity across long sessions of play.',
+    highlights: [
+      'Alum-tanned 4-piece leather cover',
+      'Hand-stitched raised seam',
+      'Cork and rubber core',
+      'Maintains shape and shine',
+      'Pack of 3 balls',
+    ],
+    specifications: { Weight: '156g (Men)', Material: 'Leather', Core: 'Cork + Rubber', Quantity: '3 Pack' },
+    sizes: null,
+    colors: [
+      { name: 'Red', hex: '#B91C1C' },
+      { name: 'White', hex: '#F5F5F5' },
+    ],
+    stock: 'in-stock',
+    stockCount: 60,
+    tags: [],
+    sku: 'DS-CR-002',
+    deliveryDays: 4,
+    freeDelivery: false,
+  },
+  {
+    id: 'professional-cricket-gloves',
+    name: 'Professional Cricket Gloves',
+    slug: 'professional-cricket-gloves',
+    brand: 'DENIO',
+    category: 'cricket',
+    subcategory: 'gloves',
+    price: 1999,
+    originalPrice: 2799,
+    discount: 29,
+    rating: 4.4,
+    reviewCount: 67,
+    description: 'High-performance batting gloves with multi-section finger design for maximum flexibility. High-density foam padding absorbs impact from fast bowling.',
+    highlights: [
+      'Multi-section finger design',
+      'High-density foam padding',
+      'Leather palm for grip',
+      'Mesh ventilation on back',
+      'Velcro wrist closure',
+    ],
+    specifications: { Material: 'Leather + PU', Padding: 'High-Density Foam', Palm: 'Leather', Ventilation: 'Mesh' },
+    sizes: ['Youth', 'Men'],
+    colors: [
+      { name: 'White/Blue', hex: '#2563EB' },
+    ],
+    stock: 'in-stock',
+    stockCount: 42,
+    tags: [],
+    sku: 'DS-CR-003',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+  {
+    id: 'cricket-batting-pads',
+    name: 'Cricket Batting Pads',
+    slug: 'cricket-batting-pads',
+    brand: 'DENIO',
+    category: 'cricket',
+    subcategory: 'protective-gear',
+    price: 2299,
+    originalPrice: 2999,
+    discount: 23,
+    rating: 4.2,
+    reviewCount: 38,
+    description: 'Lightweight batting pads with three-strip cane construction for reliable protection. Wide top bolster provides high coverage against short-pitched deliveries.',
+    highlights: [
+      'Three-strip cane construction',
+      'Wide protective bolster',
+      'Lightweight at 680g per pad',
+      'Traditional buckle straps',
+      'HDF shin and knee protection',
+    ],
+    specifications: { Construction: '3-Strip Cane', Weight: '680g each', Straps: 'Buckle', Protection: 'HDF' },
+    sizes: ['Youth', 'Men'],
+    colors: [
+      { name: 'White', hex: '#F5F5F5' },
+    ],
+    stock: 'in-stock',
+    stockCount: 25,
+    tags: [],
+    sku: 'DS-CR-004',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+  {
+    id: 'cricket-helmet',
+    name: 'Cricket Helmet',
+    slug: 'cricket-helmet',
+    brand: 'DENIO',
+    category: 'cricket',
+    subcategory: 'protective-gear',
+    price: 2999,
+    originalPrice: 3999,
+    discount: 25,
+    rating: 4.6,
+    reviewCount: 41,
+    description: 'High-impact ABS shell cricket helmet with titanium grille. Meets international safety standards with superior ventilation to keep you cool under pressure.',
+    highlights: [
+      'ABS outer shell for impact protection',
+      'Titanium grille faceguard',
+      'Multiple ventilation ports',
+      'Adjustable rear dial for fit',
+      'Removable, washable padding',
+    ],
+    specifications: { Shell: 'ABS', Grille: 'Titanium', Standard: 'BS 7928:2013', Ventilation: '12 Ports', Adjustment: 'Rear Dial' },
+    sizes: ['S', 'M', 'L'],
+    colors: [
+      { name: 'Navy', hex: '#1E3A5F' },
+      { name: 'Green', hex: '#166534' },
+    ],
+    stock: 'low-stock',
+    stockCount: 4,
+    tags: ['new'],
+    sku: 'DS-CR-005',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+
+  // ─── BADMINTON ───────────────────────────────────────────
+  {
+    id: 'denio-carbon-pro-badminton-racket',
+    name: 'DENIO Carbon Pro Badminton Racket',
+    slug: 'denio-carbon-pro-badminton-racket',
+    brand: 'DENIO',
+    category: 'badminton',
+    subcategory: 'rackets',
+    price: 2799,
+    originalPrice: 3999,
+    discount: 30,
+    rating: 4.5,
+    reviewCount: 104,
+    description: 'Ultra-light full-carbon badminton racket with isometric head shape for a larger sweet spot. Ideal for intermediate to advanced players seeking control and power.',
+    highlights: [
+      'Full carbon graphite frame',
+      'Isometric head shape',
+      'Ultra-light (85g without string)',
+      'High tension string capability (up to 30 lbs)',
+      'Includes full-length cover',
+    ],
+    specifications: { Weight: '85g (unstrung)', Material: 'Carbon Graphite', 'Balance Point': '290mm', 'Max Tension': '30 lbs', 'Shaft Flex': 'Medium' },
+    sizes: null,
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+      { name: 'Black/Blue', hex: '#2563EB' },
+    ],
+    stock: 'in-stock',
+    stockCount: 55,
+    tags: ['bestseller', 'featured'],
+    sku: 'DS-BD-001',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+  {
+    id: 'denio-feather-shuttlecocks',
+    name: 'DENIO Feather Shuttlecocks (Pack of 10)',
+    slug: 'denio-feather-shuttlecocks',
+    brand: 'DENIO',
+    category: 'badminton',
+    subcategory: 'shuttlecocks',
+    price: 499,
+    originalPrice: 699,
+    discount: 29,
+    rating: 4.1,
+    reviewCount: 89,
+    description: 'Tournament-grade goose feather shuttlecocks with natural cork base. Consistent flight trajectory and excellent durability for competitive play.',
+    highlights: [
+      '16 natural goose feathers per shuttle',
+      'Natural cork base',
+      'Consistent flight and speed',
+      'Pack of 10 shuttlecocks',
+      'Speed: 77 (medium pace)',
+    ],
+    specifications: { Feather: 'Goose', Base: 'Natural Cork', Speed: '77', Quantity: '10 Pack' },
+    sizes: null,
+    colors: [
+      { name: 'White', hex: '#F5F5F5' },
+    ],
+    stock: 'in-stock',
+    stockCount: 150,
+    tags: [],
+    sku: 'DS-BD-002',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+  {
+    id: 'badminton-kit-bag',
+    name: 'Badminton Kit Bag',
+    slug: 'badminton-kit-bag',
+    brand: 'DENIO',
+    category: 'badminton',
+    subcategory: 'accessories',
+    price: 1299,
+    originalPrice: null,
+    discount: null,
+    rating: 4.3,
+    reviewCount: 32,
+    description: 'Spacious kit bag designed to carry up to 3 rackets along with shoes, apparel, and accessories. Padded compartment protects rackets during transport.',
+    highlights: [
+      'Holds up to 3 rackets',
+      'Separate shoe compartment',
+      'Padded main compartment',
+      'Adjustable shoulder strap',
+      'Water-resistant nylon exterior',
+    ],
+    specifications: { Capacity: '3 Rackets', Material: 'Nylon', Compartments: '3', 'Water Resistant': 'Yes' },
+    sizes: null,
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+    ],
+    stock: 'in-stock',
+    stockCount: 40,
+    tags: [],
+    sku: 'DS-BD-003',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+
+  // ─── TENNIS ──────────────────────────────────────────────
+  {
+    id: 'denio-carbon-tennis-racket',
+    name: 'DENIO Carbon Tennis Racket',
+    slug: 'denio-carbon-tennis-racket',
+    brand: 'DENIO',
+    category: 'tennis',
+    subcategory: 'rackets',
+    price: 4499,
+    originalPrice: 5999,
+    discount: 25,
+    rating: 4.4,
+    reviewCount: 56,
+    description: 'High-performance carbon fibre tennis racket with 100 sq. in. head for an ideal blend of power and control. Pre-strung and ready for competitive play.',
+    highlights: [
+      'Full carbon fibre construction',
+      '100 sq. in. head size',
+      'Weight: 280g (unstrung)',
+      'Pre-strung at 50 lbs',
+      'Includes premium racket cover',
+    ],
+    specifications: { Material: 'Carbon Fibre', 'Head Size': '100 sq. in.', Weight: '280g', Balance: '320mm', 'String Pattern': '16×19' },
+    sizes: ['Grip 2', 'Grip 3', 'Grip 4'],
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+    ],
+    stock: 'in-stock',
+    stockCount: 20,
+    tags: ['featured'],
+    sku: 'DS-TN-001',
+    deliveryDays: 5,
+    freeDelivery: true,
+  },
+  {
+    id: 'tennis-balls-can',
+    name: 'Tennis Balls (Can of 3)',
+    slug: 'tennis-balls-can',
+    brand: 'DENIO',
+    category: 'tennis',
+    subcategory: 'balls',
+    price: 399,
+    originalPrice: null,
+    discount: null,
+    rating: 4.2,
+    reviewCount: 72,
+    description: 'Pressurised tournament tennis balls with consistent bounce and felt wear. ITF-approved for competitive play on all court surfaces.',
+    highlights: [
+      'ITF-approved specifications',
+      'Pressurised for consistent bounce',
+      'Durable woven felt cover',
+      'Suitable for all court surfaces',
+      'Can of 3 balls',
+    ],
+    specifications: { Type: 'Pressurised', Approval: 'ITF', Surface: 'All Court', Quantity: '3 Can' },
+    sizes: null,
+    colors: [
+      { name: 'Yellow', hex: '#EAB308' },
+    ],
+    stock: 'in-stock',
+    stockCount: 200,
+    tags: [],
+    sku: 'DS-TN-002',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+
+  // ─── JERSEYS & APPAREL ──────────────────────────────────
+  {
+    id: 'denio-dryfit-sports-tshirt',
+    name: 'DENIO Dry-Fit Sports T-Shirt',
+    slug: 'denio-dryfit-sports-tshirt',
+    brand: 'DENIO',
+    category: 'apparel',
+    subcategory: 'tshirts',
+    price: 699,
+    originalPrice: 999,
+    discount: 30,
+    rating: 4.3,
+    reviewCount: 187,
+    description: 'All-purpose sports t-shirt with advanced Dry-Fit technology that wicks sweat away from the body. Lightweight, breathable, and suitable for every workout or casual wear.',
+    highlights: [
+      'Advanced Dry-Fit moisture management',
+      'Lightweight 130gsm fabric',
+      'Raglan sleeves for mobility',
+      'Flatlock stitching to reduce chafing',
+      'UPF 30+ sun protection',
+    ],
+    specifications: { Material: '100% Polyester', Weight: '130gsm', Fit: 'Regular', 'UV Protection': 'UPF 30+', Care: 'Machine Wash' },
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'Red', hex: '#D42B2B' },
+      { name: 'Navy', hex: '#1E3A5F' },
+      { name: 'Grey', hex: '#6B7280' },
+    ],
+    stock: 'in-stock',
+    stockCount: 320,
+    tags: ['bestseller'],
+    sku: 'DS-AP-001',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+  {
+    id: 'denio-performance-track-pants',
+    name: 'DENIO Performance Track Pants',
+    slug: 'denio-performance-track-pants',
+    brand: 'DENIO',
+    category: 'apparel',
+    subcategory: 'pants',
+    price: 1299,
+    originalPrice: 1699,
+    discount: 24,
+    rating: 4.4,
+    reviewCount: 98,
+    description: 'Tapered-leg track pants with moisture-wicking fabric and zip pockets. Elastic waistband with drawcord ensures a secure, comfortable fit during warm-ups and casual wear.',
+    highlights: [
+      'Tapered leg for modern fit',
+      'Two zip pockets + one back pocket',
+      'Elastic waistband with drawcord',
+      'Moisture-wicking fabric',
+      'Zip ankle openings',
+    ],
+    specifications: { Material: '90% Polyester, 10% Spandex', Fit: 'Tapered', Pockets: '3 (2 zip)', Features: 'Zip Ankle' },
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'Charcoal', hex: '#374151' },
+    ],
+    stock: 'in-stock',
+    stockCount: 110,
+    tags: ['new'],
+    sku: 'DS-AP-002',
+    deliveryDays: 3,
+    freeDelivery: true,
+  },
+  {
+    id: 'denio-sports-compression-socks',
+    name: 'DENIO Sports Compression Socks (3-Pack)',
+    slug: 'denio-sports-compression-socks',
+    brand: 'DENIO',
+    category: 'apparel',
+    subcategory: 'socks',
+    price: 399,
+    originalPrice: null,
+    discount: null,
+    rating: 4.0,
+    reviewCount: 126,
+    description: 'Crew-length compression socks designed for athletic performance. Graduated compression supports blood flow while cushioned heel and toe ensure comfort during extended play.',
+    highlights: [
+      'Graduated compression for support',
+      'Cushioned heel and toe',
+      'Moisture-wicking fabric blend',
+      'Reinforced sole for durability',
+      'Pack of 3 pairs',
+    ],
+    specifications: { Material: '80% Nylon, 15% Cotton, 5% Spandex', Length: 'Crew', Compression: 'Graduated', Quantity: '3 Pairs' },
+    sizes: ['Free Size'],
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'White', hex: '#F5F5F5' },
+    ],
+    stock: 'in-stock',
+    stockCount: 250,
+    tags: [],
+    sku: 'DS-AP-003',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+
+  // ─── SPORTS ACCESSORIES ─────────────────────────────────
+  {
+    id: 'denio-pro-sports-bag',
+    name: 'DENIO Pro Sports Bag',
+    slug: 'denio-pro-sports-bag',
+    brand: 'DENIO',
+    category: 'accessories',
+    subcategory: 'bags',
+    price: 1999,
+    originalPrice: 2499,
+    discount: 20,
+    rating: 4.5,
+    reviewCount: 143,
+    description: 'Large-capacity sports duffle bag with dedicated shoe compartment and wet-pocket. Durable 600D polyester construction with padded shoulder strap for comfortable carrying.',
+    highlights: [
+      '45L capacity main compartment',
+      'Separate ventilated shoe compartment',
+      'Water-resistant wet pocket',
+      'Padded adjustable shoulder strap',
+      '600D polyester for durability',
+    ],
+    specifications: { Capacity: '45 Litres', Material: '600D Polyester', Dimensions: '56 × 28 × 28 cm', Compartments: '4', 'Water Resistant': 'Yes' },
+    sizes: null,
+    colors: [
+      { name: 'Black/Red', hex: '#D42B2B' },
+      { name: 'Black/Grey', hex: '#6B7280' },
+    ],
+    stock: 'in-stock',
+    stockCount: 65,
+    tags: ['bestseller', 'featured'],
+    sku: 'DS-AC-001',
+    deliveryDays: 4,
+    freeDelivery: true,
+  },
+  {
+    id: 'training-cone-set',
+    name: 'Training Cone Set (12 pcs)',
+    slug: 'training-cone-set',
+    brand: 'DENIO',
+    category: 'accessories',
+    subcategory: 'training',
+    price: 449,
+    originalPrice: null,
+    discount: null,
+    rating: 4.1,
+    reviewCount: 65,
+    description: 'Durable PVC training cones in 4 bright colours for agility drills, speed training, and field marking. Includes convenient carry strap for easy transport.',
+    highlights: [
+      '12 cones in 4 colours',
+    "Flexible PVC — won't shatter on impac",
+      '23 cm height for high visibility',
+      'Carry strap included',
+      'Suitable for indoor and outdoor use',
+    ],
+    specifications: { Material: 'PVC', Height: '23 cm', Quantity: '12', Colours: '4 (Red, Yellow, Blue, Green)' },
+    sizes: null,
+    colors: null,
+    stock: 'in-stock',
+    stockCount: 180,
+    tags: [],
+    sku: 'DS-AC-002',
+    deliveryDays: 4,
+    freeDelivery: false,
+  },
+  {
+    id: 'sports-water-bottle',
+    name: 'Sports Water Bottle (750ml)',
+    slug: 'sports-water-bottle',
+    brand: 'DENIO',
+    category: 'accessories',
+    subcategory: 'hydration',
+    price: 349,
+    originalPrice: null,
+    discount: null,
+    rating: 4.2,
+    reviewCount: 94,
+    description: 'BPA-free sports water bottle with squeezable body and leak-proof cap. One-hand operation makes hydration easy during intense training sessions.',
+    highlights: [
+      '750ml capacity',
+      'BPA-free Tritan plastic',
+      'Squeezable design for quick sips',
+      'Leak-proof push-pull cap',
+      'Dishwasher safe',
+    ],
+    specifications: { Capacity: '750ml', Material: 'Tritan Plastic', 'BPA Free': 'Yes', 'Dishwasher Safe': 'Yes' },
+    sizes: null,
+    colors: [
+      { name: 'Black', hex: '#111111' },
+      { name: 'Red', hex: '#D42B2B' },
+      { name: 'Blue', hex: '#2563EB' },
+    ],
+    stock: 'in-stock',
+    stockCount: 300,
+    tags: [],
+    sku: 'DS-AC-003',
+    deliveryDays: 3,
+    freeDelivery: false,
+  },
+
+  // ─── TROPHIES & AWARDS ──────────────────────────────────
+  {
+    id: 'winner-gold-trophy',
+    name: 'Winner Gold Trophy',
+    slug: 'winner-gold-trophy',
+    brand: 'DENIO',
+    category: 'trophies',
+    subcategory: 'trophies',
+    price: 1999,
+    originalPrice: 2499,
+    discount: 20,
+    rating: 4.8,
+    reviewCount: 28,
+    description: 'Imposing gold-plated metal trophy on black marble base. Suitable for tournaments, award ceremonies, and sports day events. Engraving plate included.',
+    highlights: [
+      'Gold-plated metal cup design',
+      'Black marble base for elegance',
+      'Height: 30 cm',
+      'Engraveable metal plate included',
+      'Gift box packaging',
+    ],
+    specifications: { Height: '30 cm', Material: 'Metal (Gold Plated)', Base: 'Black Marble', Engraving: 'Plate Included', Packaging: 'Gift Box' },
+    sizes: ['Small (25cm)', 'Medium (30cm)', 'Large (38cm)'],
+    colors: [
+      { name: 'Gold', hex: '#D97706' },
+    ],
+    stock: 'in-stock',
+    stockCount: 15,
+    tags: ['featured'],
+    sku: 'DS-TR-001',
+    deliveryDays: 6,
+    freeDelivery: true,
+  },
+  {
+    id: 'sports-achievement-medal-set',
+    name: 'Sports Achievement Medal Set',
+    slug: 'sports-achievement-medal-set',
+    brand: 'DENIO',
+    category: 'trophies',
+    subcategory: 'medals',
+    price: 699,
+    originalPrice: null,
+    discount: null,
+    rating: 4.6,
+    reviewCount: 35,
+    description: 'Set of 3 medals (Gold, Silver, Bronze) with ribbon neck straps. Ideal for school sports days, local tournaments, and corporate events.',
+    highlights: [
+      'Set of 3: Gold, Silver, Bronze',
+      'Diameter: 6.5 cm each',
+      'Ribbon neck straps included',
+      'Embossed laurel wreath design',
+      'Engraveable reverse side',
+    ],
+    specifications: { Diameter: '6.5 cm', Material: 'Zinc Alloy', Finish: 'Gold / Silver / Bronze', Ribbon: 'Included', Quantity: 'Set of 3' },
+    sizes: null,
+    colors: null,
+    stock: 'in-stock',
+    stockCount: 50,
+    tags: [],
+    sku: 'DS-TR-002',
+    deliveryDays: 5,
+    freeDelivery: false,
+  },
+];
+
+// ─── Helper Functions ─────────────────────────────────────
+
+export function getProductById(id) {
+  return products.find((p) => p.id === id) || null;
+}
+
+export function getProductsByCategory(category) {
+  return products.filter((p) => p.category === category);
+}
+
+export function getProductsBySubcategory(category, subcategory) {
+  return products.filter((p) => p.category === category && p.subcategory === subcategory);
+}
+
+export function searchProducts(query) {
+  if (!query || !query.trim()) return [];
+  const q = query.toLowerCase().trim();
+  return products.filter(
+    (p) =>
+      p.name.toLowerCase().includes(q) ||
+      p.description.toLowerCase().includes(q) ||
+      p.category.toLowerCase().includes(q) ||
+      p.subcategory.toLowerCase().includes(q) ||
+      p.brand.toLowerCase().includes(q) ||
+      (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
+  );
+}
+
+export function getRelatedProducts(productId, limit = 4) {
+  const product = getProductById(productId);
+  if (!product) return [];
+  return products
+    .filter((p) => p.id !== productId && p.category === product.category)
+    .slice(0, limit);
+}
+
+export function getFeaturedProducts() {
+  return products.filter((p) => p.tags.includes('featured'));
+}
+
+export function getNewArrivals() {
+  return products.filter((p) => p.tags.includes('new'));
+}
+
+export function getBestSellers() {
+  return products.filter((p) => p.tags.includes('bestseller'));
+}
+
+export function getPopularProducts(limit = 8) {
+  return [...products].sort((a, b) => b.reviewCount - a.reviewCount).slice(0, limit);
+}
+
+export function filterProducts(productList, filters) {
+  let result = [...productList];
+
+  if (filters.priceMin != null) {
+    result = result.filter((p) => p.price >= filters.priceMin);
+  }
+  if (filters.priceMax != null) {
+    result = result.filter((p) => p.price <= filters.priceMax);
+  }
+  if (filters.rating) {
+    result = result.filter((p) => p.rating >= filters.rating);
+  }
+  if (filters.availability === 'in-stock') {
+    result = result.filter((p) => p.stock !== 'out-of-stock');
+  }
+  if (filters.brand && filters.brand.length > 0) {
+    result = result.filter((p) => filters.brand.includes(p.brand));
+  }
+  if (filters.subcategory) {
+    result = result.filter((p) => p.subcategory === filters.subcategory);
+  }
+
+  return result;
+}
+
+export function sortProducts(productList, sortBy) {
+  const sorted = [...productList];
+  switch (sortBy) {
+    case 'price-low':
+      return sorted.sort((a, b) => a.price - b.price);
+    case 'price-high':
+      return sorted.sort((a, b) => b.price - a.price);
+    case 'newest':
+      return sorted.sort((a, b) => (b.tags.includes('new') ? 1 : 0) - (a.tags.includes('new') ? 1 : 0));
+    case 'popularity':
+      return sorted.sort((a, b) => b.reviewCount - a.reviewCount);
+    case 'rating':
+      return sorted.sort((a, b) => b.rating - a.rating);
+    default:
+      return sorted;
+  }
+}
+
+export function formatPrice(price) {
+  return '₹' + price.toLocaleString('en-IN');
+}
