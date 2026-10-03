@@ -11,6 +11,19 @@ const categoryConfig = {
 };
 
 export default function ProductImage({ product, className = '', size = 'md', index = 0 }) {
+  // If a real image URL has been set, render it directly inside the same container
+  if (product.image) {
+    return (
+      <div className={`relative flex items-center justify-center overflow-hidden ${className}`}>
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-full object-cover"
+        />
+      </div>
+    );
+  }
+
   const config = categoryConfig[product.category] || categoryConfig.accessories;
   const { Icon, bg } = config;
   const iconSize = size === 'lg' ? 64 : size === 'md' ? 40 : 28;

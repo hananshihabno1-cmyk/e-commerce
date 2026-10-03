@@ -35,6 +35,7 @@ export const products = [
     tags: ['bestseller', 'featured'],
     sku: 'DS-FB-001',
     deliveryDays: 4,
+    image: 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/084933/01/fnd/IND/fmt/png/Future-3-Seamless-Touch-Football',
     freeDelivery: true,
   },
   {
@@ -68,6 +69,7 @@ export const products = [
     tags: [],
     sku: 'DS-FB-002',
     deliveryDays: 4,
+    image: 'https://m.media-amazon.com/images/I/61X5h4gHP2L._AC_UF894,1000_QL80_.jpg',
     freeDelivery: true,
   },
   {
@@ -99,6 +101,7 @@ export const products = [
     tags: [],
     sku: 'DS-FB-003',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSecXl_AYPMHW1mvckoBIYnj3DR4mo7fR5NIUvyRsiCw&s=10',
     freeDelivery: false,
   },
   {
@@ -132,6 +135,7 @@ export const products = [
     tags: ['bestseller'],
     sku: 'DS-FB-004',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kbu2QRtSqVfxC8aORSnPcbcBWkqoqrjqPg9n_O1Blw&s=10',
     freeDelivery: true,
   },
   {
@@ -166,6 +170,7 @@ export const products = [
     tags: ['new', 'featured'],
     sku: 'DS-FB-005',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2N-LHBwRYe2_iOdbOO11-terkMTahFu-ygNavGQnjQ&s=10',
     freeDelivery: true,
   },
   {
@@ -199,6 +204,7 @@ export const products = [
     tags: [],
     sku: 'DS-FB-006',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1lKmZ58Y-VdBY7A1G4N24oTPLh9M7BNsrUgG_uDU3TA&s=10',
     freeDelivery: false,
   },
   {
@@ -231,6 +237,7 @@ export const products = [
     tags: [],
     sku: 'DS-FB-007',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXQ-kNQwDy31AMBDclTNA5peAudDq4vsRaFkOAWSqqpw&s=10',
     freeDelivery: true,
   },
   {
@@ -263,6 +270,7 @@ export const products = [
     tags: [],
     sku: 'DS-FB-008',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYjz9HOhSlSRJTpUypPaLFmcr1hoSmczr1-4dz6jCeHw&s=10',
     freeDelivery: false,
   },
 
@@ -298,6 +306,7 @@ export const products = [
     tags: ['bestseller', 'featured'],
     sku: 'DS-CR-001',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq0FLo_3e0rjEsjyW3YcbQ3NXt23FFa9R1n-fTVAefHw&s=10',
     freeDelivery: true,
   },
   {
@@ -331,6 +340,7 @@ export const products = [
     tags: [],
     sku: 'DS-CR-002',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHguI6TqP__aUiXTyFtQ06SCb6OFNvXmbX_pVyeur5w&s=10',
     freeDelivery: false,
   },
   {
@@ -363,6 +373,7 @@ export const products = [
     tags: [],
     sku: 'DS-CR-003',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytORfQDqogGZJLRD_xzQbKzr4kDhtQtXteNmJhNdupg&s=10',
     freeDelivery: true,
   },
   {
@@ -395,6 +406,7 @@ export const products = [
     tags: [],
     sku: 'DS-CR-004',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBgAeeiPtYGH9VTkt2Nmp3b8GsFCwaOe2kJgosim6AsQ&s=10',
     freeDelivery: true,
   },
   {
@@ -428,6 +440,7 @@ export const products = [
     tags: ['new'],
     sku: 'DS-CR-005',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwIhkdgW67-YXxwrntouDsWjK_rI4L9BN2A1Fx5UjWg&s=10',
     freeDelivery: true,
   },
 
@@ -463,6 +476,7 @@ export const products = [
     tags: ['bestseller', 'featured'],
     sku: 'DS-BD-001',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQ_6H-W_ikanr67cdcvjHi1jvRo1eMm8JRxJORAhRJw&s=10',
     freeDelivery: true,
   },
   {
@@ -495,6 +509,7 @@ export const products = [
     tags: [],
     sku: 'DS-BD-002',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdskXjpgnctqiD5Q8iVHDiDt_bWI8Ny_kwYXXXao12tQ&s=10',
     freeDelivery: false,
   },
   {
@@ -527,6 +542,7 @@ export const products = [
     tags: [],
     sku: 'DS-BD-003',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HMhzsnWOk9rX9H3jk_pah80qyDZfI51j3rV3CUMQuw&s=10',
     freeDelivery: true,
   },
 
@@ -561,6 +577,7 @@ export const products = [
     tags: ['featured'],
     sku: 'DS-TN-001',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbd_W09pmqp6qkrJyI1aTNCqFaC86eqnUS81HxK6ykw&s=10',
     freeDelivery: true,
   },
   {
@@ -593,6 +610,7 @@ export const products = [
     tags: [],
     sku: 'DS-TN-002',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5o70tK_tBEchjOpQmc_mFVLeMQtZ1GTAY5JViDqOjFg&s=10',
     freeDelivery: false,
   },
 
@@ -630,6 +648,7 @@ export const products = [
     tags: ['bestseller'],
     sku: 'DS-AP-001',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4K7z0TTFICPDpPOyp6Rik2WKa-XnGZmSzaAaAWF-kw&s=10',
     freeDelivery: false,
   },
   {
@@ -663,6 +682,7 @@ export const products = [
     tags: ['new'],
     sku: 'DS-AP-002',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz-QihGOiIVGl4Q76-M4KhOWMRRvCjpTbKu7prG4_fOg&s',
     freeDelivery: true,
   },
   {
@@ -696,6 +716,7 @@ export const products = [
     tags: [],
     sku: 'DS-AP-003',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6JeZhw5pf1wKNvnG-qekio7YKJ_hHxybo8YCfxxzkQ&s=10',
     freeDelivery: false,
   },
 
@@ -731,6 +752,7 @@ export const products = [
     tags: ['bestseller', 'featured'],
     sku: 'DS-AC-001',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz8UhPD0Xg5L22ihZwRo8sE5bgr_IexxOPvYw4dhv0Ug&s=10',
     freeDelivery: true,
   },
   {
@@ -761,6 +783,7 @@ export const products = [
     tags: [],
     sku: 'DS-AC-002',
     deliveryDays: 4,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-wCOsZKK601WUvtJHx7ZDQQTZ8IxceLeB5P0t_3gD7Q&s',
     freeDelivery: false,
   },
   {
@@ -795,6 +818,7 @@ export const products = [
     tags: [],
     sku: 'DS-AC-003',
     deliveryDays: 3,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxOnek5vd-UiWSPnk-L923nR6s0ot9i4VuDJG9zvtNPg&s=10',
     freeDelivery: false,
   },
 
@@ -829,6 +853,7 @@ export const products = [
     tags: ['featured'],
     sku: 'DS-TR-001',
     deliveryDays: 6,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-b9khyPkkKZblQMVBGiwHOVN5d89yXSHuu5_aCDtpw&s=10',
     freeDelivery: true,
   },
   {
@@ -859,6 +884,7 @@ export const products = [
     tags: [],
     sku: 'DS-TR-002',
     deliveryDays: 5,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpEQ0Q8-nYM_KR3nO8rKakb0kWTSLIlg7FceRuBGbu6A&s=10',
     freeDelivery: false,
   },
 ];
